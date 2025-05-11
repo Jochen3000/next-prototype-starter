@@ -1,40 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# Next.js Prototyping Starter Pack
+
+This starter pack provides a foundation for building modern web applications with Next.js, Tailwind CSS, and Shadcn/UI.
+
+## Prerequisites
+
+Before you begin, ensure you have the following installed:
+
+- **Homebrew** (macOS package manager):
+  - If you don't have Homebrew, open your terminal and paste the following command:
+    ```bash
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    ```
+- **Node.js**:
+  - Install using Homebrew:
+    ```bash
+    brew install node
+    ```
+- **Git**:
+  - Install using Homebrew:
+    ```bash
+    brew install git
+    ```
+- **Cursor**:
+  - Download and install from [cursor.sh](https://cursor.sh/)
 
 ## Getting Started
 
-First, run the development server:
+Follow these steps to get your development environment set up:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1.  **Clone the repository**:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+    - Open your terminal and navigate to the directory where you want to clone the project (e.g. a folder code where you can put all your projects).
+    - Run the following command (replace `<repository-url>` with the actual URL of your GitHub repository):
+      ```bash
+      git clone <repository-url>
+      ```
+    - Change into the project directory:
+      ```bash
+      cd <repository-name>
+      ```
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+2.  **Install dependencies**:
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+    - This project uses npm (Node Package Manager), which comes with Node.js. Run the following command to install the necessary libraries:
+      ```bash
+      npm install
+      ```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+3.  **Start the development server**:
+    - Once the dependencies are installed, you can start the Next.js development server:
+      ```bash
+      npm run dev
+      ```
+    - This will typically start the server on `http://localhost:3000`. Open this URL in your web browser to see the application.
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Vibe Coding with Cursor
 
-## Learn More
+Cursor is an AI-powered code editor that can help you write, understand, and refactor code more efficiently.
 
-To learn more about Next.js, take a look at the following resources:
+- **Open the project in Cursor**: Launch Cursor and open the cloned project folder.
+- **Chat with your codebase**: Use the chat interface (often accessible via `Cmd+K` or a dedicated panel) to ask questions about the code, request changes, or generate new code.
+  - For example, you can select a piece of code and ask Cursor to explain it, refactor it, or add a new feature based on it.
+  - You can also ask general programming questions or ask for boilerplate code.
+- **Iterate and build**: Use Cursor's AI assistance to speed up your development process. Experiment with "vibe coding" by describing what you want to achieve in natural language, and let Cursor help you translate that into code.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+Happy coding!
