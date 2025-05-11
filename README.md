@@ -37,7 +37,7 @@ Follow these steps to get your development environment set up:
       ```
     - Change into the project directory:
       ```bash
-      cd <repository-name>
+      cd next-prototype-starter
       ```
 
 2.  **Install dependencies**:
@@ -47,21 +47,21 @@ Follow these steps to get your development environment set up:
       npm install
       ```
 
-3.  **Start the development server**:
-    - Once the dependencies are installed, you can start the Next.js development server:
-      ```bash
-      npm run dev
-      ```
-    - This will typically start the server on `http://localhost:3000`. Open this URL in your web browser to see the application.
-
 ## Vibe Coding with Cursor
 
 Cursor is an AI-powered code editor that can help you write, understand, and refactor code more efficiently.
 
 - **Open the project in Cursor**: Launch Cursor and open the cloned project folder.
 - **Chat with your codebase**: Use the chat interface (often accessible via `Cmd+K` or a dedicated panel) to ask questions about the code, request changes, or generate new code.
+
   - For example, you can select a piece of code and ask Cursor to explain it, refactor it, or add a new feature based on it.
   - You can also ask general programming questions or ask for boilerplate code.
-- **Iterate and build**: Use Cursor's AI assistance to speed up your development process. Experiment with "vibe coding" by describing what you want to achieve in natural language, and let Cursor help you translate that into code.
+
+- **Start the development server**:
+- Open a terminal in cursor and start the development server:
+  ```bash
+  npm run dev
+  ```
+- This will typically start the server on `http://localhost:3000`. Open this URL in your web browser to see the application.
 
 Happy coding!
