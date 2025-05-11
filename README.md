@@ -31,9 +31,9 @@ Follow these steps to get your development environment set up:
 1.  **Clone the repository**:
 
     - Open your terminal and navigate to the directory where you want to clone the project (e.g. a folder code where you can put all your projects).
-    - Run the following command (replace `<repository-url>` with the actual URL of your GitHub repository):
+    - Run the following command:
       ```bash
-      git clone <repository-url>
+      git clone https://github.com/Jochen3000/next-prototype-starter.git
       ```
     - Change into the project directory:
       ```bash
